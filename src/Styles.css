@@ -1,0 +1,86 @@
+p {
+    font-size: xxx-large;
+    color: burlywood;
+    font-weight: bolder;
+    font-family: "Leander";
+    font-style: normal;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: bolder;
+    font-family: "Leander";
+    font-style: normal;
+    text-decoration: none;
+}
+
+.sec1{
+    display: flex;
+}
+.sec1Inner {
+    flex: 50%;
+    padding: 10px;
+}
+
+.sec2{
+    display: flex;
+}
+.sec2Inner {
+    flex: 50%;
+    padding: 10px;
+}
+
+.sec3r{
+    display: flex;
+}
+.sec3Inner{
+    flex: 50%;
+    padding: 10px;
+}
+.sec4{
+    display: flex;
+}
+.sec4Inner{
+    flex: 50%;
+    padding: 10px;
+}
+
+.sec5{
+    display: flex;
+}
+.sec5Inner{
+    flex: 50%;
+    padding: 10px;
+}
+
+.sec6{
+    display: flex;
+}
+.sec6Inner{
+    flex: 50%;
+    padding: 10px;
+}
+
+.sec7{
+    display: flex;
+}
+.sec7Inner{
+    flex: 50%;
+    padding: 10px;
+}
+
+.sec8{
+    display: flex;
+}
+.sec8Inner{
+    flex: 50%;
+    padding: 10px;
+}
+
+.sec9{
+    display: flex;
+}
+.sec9Inner{
+    flex: 50%;
+    padding: 10px;
+}
