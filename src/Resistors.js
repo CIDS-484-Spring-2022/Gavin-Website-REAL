@@ -6,48 +6,24 @@ import './Styles.css'
 
 const Resistors = () => {
     const scroll = () => {window.scrollTo({top: 0, behavior: 'smooth'})}
+
     return(
         <div>
+            <div className="new-nav-container"><center>
+                <div className="new-nav"><Link to="/">Home Page</Link></div>
+                <div className="new-nav"><Link to="/AboutMe">About Me</Link></div>
+                <div className="new-nav"><Link to="/Dates">Dates</Link></div>
+                <div className="new-nav"><Link to="/HireMe">Hire Me</Link></div>
+                <div className="new-nav"><Link to="/Contact">Contact</Link></div>
+                <div className="new-nav"><Link to="/Photos">Photos</Link></div>
+                <div className="new-nav"><Link to="/Videos">Videos</Link></div>
+                <div className="new-nav"><Link to="/YbYR">Year By Year Review</Link></div>
+                <div className="new-nav"><Link to="/Resistors">Resistors</Link></div>
+            </center></div>
             <p className="universal-home"><Link to ="/">Andrew Spreck</Link></p>
             <p className="banner"><img src={Banner} alt="File not Found"/></p>
             <p className="title">Resistors</p>
-        <header>
-            <br /> {/*Line Break */}
-            <ul className="nav">
-                <li>
-                    {/* Endpoint to route to Home component */}
-                    <Link to="/">Home Page</Link>
-                </li>
-                <li>
-                    {/* Endpoint to route to About component */}
-                    <Link to="/Dates">Dates</Link>
-                </li>
-                <li>
-                    {/* Endpoint to route to Hire Me component */}
-                    <Link to="/HireMe">Hire Me</Link>
-                </li>
-                <li>
-                    {/* Endpoint to route to Contact component */}
-                    <Link to="/Contact">Contact</Link>
-                </li>
-                <li>
-                    {/* Endpoint to route to Photos component */}
-                    <Link to="/Photos">Photos</Link>
-                </li>
-                <li>
-                    {/* Endpoint to route to Videos component */}
-                    <Link to="/Videos">Videos</Link>
-                </li>
-                <li>
-                    {/* Endpoint to route to YbYR component */}
-                    <Link to="/YbYR">YbYR</Link>
-                </li>
-                <li>
-                    {/* Endpoint to route to Resistors component */}
-                    <Link to="/Resistors">Resistors</Link>
-                </li>
-            </ul>
-            </header>
+
             <body className="resistors-body">
             <h1>The Resistors</h1>
             <h3>The vision that would become The Resistors came to realization in April of 1994 when drummer John Hill joined Jeff, Andy and Mark Ruud in a jam session at Andy's house. John was the final piece needed to complete the group. Rooted in bluesy double-guitar rock, the guitar work between Jeff and Andy would be the driving force in the early Resistors sound. As the band started gigging and built up a small following at smoky roadhouses, the focus would widen to include harmony vocals between John and Andy.</h3>

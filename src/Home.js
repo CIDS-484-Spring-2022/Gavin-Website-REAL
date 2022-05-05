@@ -15,22 +15,21 @@ const Home = () => {
 
     return(
         <div>
+            <div className="new-nav-container"><center>
+                <div className="new-nav"><Link to="/">Home Page</Link></div>
+                <div className="new-nav"><Link to="/AboutMe">About Me</Link></div>
+                <div className="new-nav"><Link to="/Dates">Dates</Link></div>
+                <div className="new-nav"><Link to="/HireMe">Hire Me</Link></div>
+                <div className="new-nav"><Link to="/Contact">Contact</Link></div>
+                <div className="new-nav"><Link to="/Photos">Photos</Link></div>
+                <div className="new-nav"><Link to="/Videos">Videos</Link></div>
+                <div className="new-nav"><Link to="/YbYR">Year By Year Review</Link></div>
+                <div className="new-nav"><Link to="/Resistors">Resistors</Link></div>
+            </center></div>
             <p className="universal-home"><Link to ="/">Andrew Spreck</Link></p>
             <p className="banner"><img src={Banner} alt="File not Found"/></p>
             <p className="title">Home Page</p>
-        <header>
-            <br /> {/*Line Break */}
-            <ul className="nav"> {/*Navbar*/}
-                <li className="home"> {/* Endpoint to route to Home component */} <Link to="/">Home Page</Link> </li>
-                <li> {/* Endpoint to route to About component */} <Link to="/Dates">Dates</Link> </li>
-                <li> {/* Endpoint to route to Hire Me component */} <Link to="/HireMe">Hire Me</Link></li>
-                <li> {/* Endpoint to route to Contact component */} <Link to="/Contact">Contact</Link> </li>
-                <li> {/* Endpoint to route to Photos component */} <Link to="/Photos">Photos</Link> </li>
-                <li> {/* Endpoint to route to Videos component */} <Link to="/Videos">Videos</Link> </li>
-                <li> {/* Endpoint to route to YbYR component */} <Link to="/YbYR">YbYR</Link> </li>
-                <li> {/* Endpoint to route to Resistors component */} <Link to="/Resistors">Resistors</Link> </li>
-            </ul>
-            </header>
+
             <body className="home-body">
             <h2><center>Check Out My New CD "Where I'm From"</center></h2>
             <h3><center>Available now on your favorite streaming service along with my entire catalog!</center></h3>

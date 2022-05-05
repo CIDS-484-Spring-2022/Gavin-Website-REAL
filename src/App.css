@@ -3,6 +3,7 @@ App: background, NavBar
 All: nav, banner, title, universal-home, footer, scrollToTop
 Individual: <page-name>-body,
 Home: carousel, carouselInner, left, center, right
+Contact: (id: name, email, message)
 
  */
 
@@ -22,14 +23,25 @@ Home: carousel, carouselInner, left, center, right
 
 .universal-home {
   padding-left: 13%;  /*alignment with banner photo*/
-  padding-top: 1%;
+  padding-top: 4%;
   position: unset;
-  height: 15px;
+  height: 10px;
   font-size: 4rem;
 }
 
 /* Body containers. Made separately in case any of them needed individual adjusting */
 .home-body {                   /* Container */
+  max-width: 60%;
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: hsl(41deg 30% 49%);
+  background-color: rgb(0,0,0, 0.55);
+  box-shadow: 0 0 15px 8px black;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.aboutMe-body {                   /* Container */
   max-width: 60%;
   margin: 0 auto;
   padding-left: 5%;
@@ -62,8 +74,8 @@ Home: carousel, carouselInner, left, center, right
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
-/*.contact-body{
-  max-width: 60%;
+.contact-body{
+  max-width: 40%;
   margin: 0 auto;
   padding-left: 5%;
   padding-right: 5%;
@@ -72,7 +84,7 @@ Home: carousel, carouselInner, left, center, right
   box-shadow: 0 0 15px 8px black;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-}*/
+}
 .photos-body{
   max-width: 70%;
   margin: 0 auto;
@@ -118,12 +130,13 @@ Home: carousel, carouselInner, left, center, right
   padding-bottom: 0.5em;
 }
 
-/*.nav{
-  list-style: none;
-  float: top;
-  display: flex;
-  text-align: center;
-}*/
+#name, #email {
+  width: 60%;
+}
+#message {
+  width: 80%;
+  height: 5em;
+}
 
 .scrollToTop {
   position: fixed;

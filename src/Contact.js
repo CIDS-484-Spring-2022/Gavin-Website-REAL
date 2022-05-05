@@ -6,50 +6,44 @@ import './Styles.css'
 
 const Contact = () => {
     const scroll = () => {window.scrollTo({top: 0, behavior: 'smooth'})}
+
     return(
         <div>
+            <div className="new-nav-container"><center>
+                <div className="new-nav"><Link to="/">Home Page</Link></div>
+                <div className="new-nav"><Link to="/AboutMe">About Me</Link></div>
+                <div className="new-nav"><Link to="/Dates">Dates</Link></div>
+                <div className="new-nav"><Link to="/HireMe">Hire Me</Link></div>
+                <div className="new-nav"><Link to="/Contact">Contact</Link></div>
+                <div className="new-nav"><Link to="/Photos">Photos</Link></div>
+                <div className="new-nav"><Link to="/Videos">Videos</Link></div>
+                <div className="new-nav"><Link to="/YbYR">Year By Year Review</Link></div>
+                <div className="new-nav"><Link to="/Resistors">Resistors</Link></div>
+            </center></div>
             <p className="universal-home"><Link to ="/">Andrew Spreck</Link></p>
             <p className="banner"><img src={Banner} alt="File not Found"/></p>
             <p className="title">Contact</p>
-        <header>
-            <br /> {/*Line Break */}
-            <ul className="nav">
-                <li>
-                    {/* Endpoint to route to Home component */}
-                    <Link to="/">Home Page</Link>
-                </li>
-                <li>
-                    {/* Endpoint to route to About component */}
-                    <Link to="/Dates">Dates</Link>
-                </li>
-                <li>
-                    {/* Endpoint to route to Hire Me component */}
-                    <Link to="/HireMe">Hire Me</Link>
-                </li>
-                <li>
-                    {/* Endpoint to route to Contact component */}
-                    <Link to="/Contact">Contact</Link>
-                </li>
-                <li>
-                    {/* Endpoint to route to Photos component */}
-                    <Link to="/Photos">Photos</Link>
-                </li>
-                <li>
-                    {/* Endpoint to route to Videos component */}
-                    <Link to="/Videos">Videos</Link>
-                </li>
-                <li>
-                    {/* Endpoint to route to YbYR component */}
-                    <Link to="/YbYR">YbYR</Link>
-                </li>
-                <li>
-                    {/* Endpoint to route to Resistors component */}
-                    <Link to="/Resistors">Resistors</Link>
-                </li>
-            </ul>
-            </header>
-            <body className="contact-body">
 
+            <body className="contact-body">
+            <center><h3>Looking to hire me for an event? Send me a message with your name and email address so I know you're interested.</h3></center>
+            <form action="https://submit-form.com/ZzZdc5Zl">
+                <center><label htmlFor="name">Please Enter Your Name</label>
+                <br></br>
+                <input type="text" id="name" name="name" placeholder="Name" required=""/>
+                <br></br>
+                <br></br>
+                <label htmlFor="email">Email</label>
+                <br></br>
+                <input type="email" id="email" name="email" placeholder="Email" required=""/>
+                <br></br>
+                <br></br>
+                <label htmlFor="message">Message</label>
+                <br></br>
+                <textarea id="message" name="message" placeholder="Message" required=""></textarea>
+                <br></br>
+                <br></br>
+                <button type="submit">Send</button>
+                </center></form>
             </body>
             <div className="scrollToTop">
                 <div onClick={scroll}>
